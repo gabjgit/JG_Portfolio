@@ -30,6 +30,15 @@ nav{
                     "dummy-pic_3 dummy-pic_4"; 
 }
 
+div> h1{
+  margin: 5px;
+ padding: 5px;
+ font-family: Arial, Helvetica, sans-serif; 
+ font-weight: 100;
+ font-size: medium;
+ justify-content: flex-end;
+}
+
 #bio-pic {
   background-image: url(../images/02-run-buddy.jpg);
   height: 400px;
