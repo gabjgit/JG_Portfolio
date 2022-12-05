@@ -10,6 +10,15 @@ nav{
   float: right;
 }
 
+.hero-banner {
+  display: flex;
+  background-image: url();
+  background-repeat: no-repeat;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+
 .work-grid {
   background-repeat: no-repeat;
   background-position: center;
@@ -20,7 +29,7 @@ nav{
 }
 
 #work-grid {
-  min-height: 1000px;
+  min-height: 2000px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
@@ -40,25 +49,27 @@ div> h1{
 }
 
 #bio-pic {
-  background-image: url(../images/02-run-buddy.jpg);
-  height: 400px;
+  background-image: url(../images/7.jpg);
+  height: 800px;
   grid-area: dummy-pic_bio;
 }
 
 #work-1 {
-  background-image: url(../images/02-portfolio-1.jpg);
+  background-image: url(../images/3.jpg);
+  height: 500px;
   grid-area: dummy-pic_1;
 }
 #work-2 {
-  background-image: url(../images/02-portfolio-1.jpg);
+  background-image: url(../images/4.jpeg);
+  height: 500px;
   grid-area: dummy-pic_2;
 }
 #work-3 {
-  background-image: url(../images/02-portfolio-2.jpg);
+  background-image: url(../images/8.jpg);
   grid-area: dummy-pic_3;
 }
 #work-4 {
-  background-image: url(../images/02-portfolio-3.jpg);
+  background-image: url(../images/9.jpg);
   grid-area: dummy-pic_4;
 }
 a {
@@ -74,15 +85,6 @@ a {
   grid-template-rows: 1fr 3fr 1fr;
   gap: 20px;
 }
-.hero-banner {
-  display: flex;
-  background-image: url(../images/02-hero-bg.jpg);
-  height: 200px;
-  object-fit: cover;
-  align-items: flex-end;
-  justify-content: flex-end;
-}
-
 
 div >h2 {
   display: inline-block;
@@ -99,11 +101,12 @@ h1 {
  padding: 5px;
  font-family: Arial, Helvetica, sans-serif; 
  justify-content: flex-end;
-
 }
 
 
-h2,
+h2 {
+}
+}
 h3,
 h4,
 h5,
