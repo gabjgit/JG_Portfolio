@@ -4,6 +4,9 @@
 
 header> h1 {
   display: inline;
+  padding: 50px, 80px ;
+  letter-spacing: 5px;
+
 }
 nav{
   margin-right: 20px;
@@ -12,10 +15,14 @@ nav{
 
 .hero-banner {
   display: flex;
-  background-image: url();
+  padding-top: 100px;
+  background-image: url(../images/7.jpg);
+  image-rendering: crisp-edges;
+  background-position:right;
+  height: 500px;
   background-repeat: no-repeat;
-  align-items: flex-end;
-  justify-content: flex-end;
+  justify-content: right;
+  align-content: flex-end;
 }
 
 
@@ -49,27 +56,29 @@ div> h1{
 }
 
 #bio-pic {
-  background-image: url(../images/7.jpg);
-  height: 800px;
+  background-image: url(../images/4.jpeg);
+  height: 700px;
   grid-area: dummy-pic_bio;
 }
 
 #work-1 {
-  background-image: url(../images/3.jpg);
+  background-image: url(../images/2.jpg);
   height: 500px;
   grid-area: dummy-pic_1;
 }
 #work-2 {
-  background-image: url(../images/4.jpeg);
+  background-image: url(../images/1.jpg);
   height: 500px;
   grid-area: dummy-pic_2;
 }
 #work-3 {
-  background-image: url(../images/8.jpg);
+  background-image: url(../images/10.jpg);
+  height: 500px;
   grid-area: dummy-pic_3;
 }
 #work-4 {
-  background-image: url(../images/);
+  background-image: url(../images/8.jpg);
+  height: 500px;
   grid-area: dummy-pic_4;
 }
 a {
@@ -92,6 +101,7 @@ div >h2 {
 
 body {
   margin: 0%;
+  padding: 50px;
   font-family: Arial, Helvetica;
   line-height: 1.5;
 }
@@ -106,7 +116,7 @@ h1 {
 
 h2 {
 }
-}
+
 h3,
 h4,
 h5,
