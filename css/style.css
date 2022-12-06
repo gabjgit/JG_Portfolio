@@ -34,6 +34,7 @@ a{
   align-content: flex-end;
 }
 
+
 .page-section{
   display: flex;
   justify-content: center;
@@ -53,9 +54,9 @@ a{
   grid-template-columns: 1fr 1fr;
   grid-template-rows: .5fr .4fr .75fr;
   grid-template-areas: 
-                    "dummy-pic_bio dummy-pic_bio"
-                    "dummy-pic_1 dummy-pic_2"
-                    "dummy-pic_3 dummy-pic_4"; 
+                    "work-1 work-1"
+                    "work-2 work-3"
+                    "work-4 work-5"; 
 }
 
 div> h1{
@@ -93,31 +94,31 @@ p{
   padding-right: 100px;
 }
 
-#bio-pic {
+#work-1 {
   background-image: url(../images/4.jpeg);
   height: 700px;
-  grid-area: dummy-pic_bio;
+  grid-area: work-1;
 }
 
-#work-1 {
+#work-2 {
   background-image: url(../images/2.jpg);
   height: 500px;
-  grid-area: dummy-pic_1;
-}
-#work-2 {
-  background-image: url(../images/1.jpg);
-  height: 500px;
-  grid-area: dummy-pic_2;
+  grid-area: work-2;
 }
 #work-3 {
-  background-image: url(../images/10.jpg);
+  background-image: url(../images/1.jpg);
   height: 500px;
-  grid-area: dummy-pic_3;
+  grid-area: work-3;
 }
 #work-4 {
+  background-image: url(../images/10.jpg);
+  height: 500px;
+  grid-area: work-4;
+}
+#work-5 {
   background-image: url(../images/8.jpg);
   height: 500px;
-  grid-area: dummy-pic_4;
+  grid-area: work-5;
 }
 a {
   margin-left: auto;
