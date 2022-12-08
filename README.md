@@ -6,7 +6,7 @@ no installation required
 ## Screenshot
 ![gabjgit github io_JG_Portfolio_](https://user-images.githubusercontent.com/117084844/206589481-0b92ea6f-8621-4333-8754-0e419db55819.png)
 ## Link to the deployed page
-https://github.com/gabjgit/JG_Portfolio
+https://gabjgit.github.io/JG_Portfolio/
 ## Credits
 some images are from my personal website: josephgabriel.co.uk
 ## Usage
