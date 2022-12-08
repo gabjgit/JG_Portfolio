@@ -10,6 +10,6 @@ https://github.com/gabjgit/JG_Portfolio
 ## Credits
 some images are from my personal website: josephgabriel.co.uk
 ## Usage
-This webpage can be launched in most webpages. The layout adapts to the other screen sizes thanks to mediaqueries.
+This webpage can be launched in most browsers. The layout adapts to the other screen sizes thanks to mediaqueries.
 ## License
 MIT Licence
