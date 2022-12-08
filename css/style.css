@@ -3,7 +3,7 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-header> h1 {
+header > h1 {
   display: inline;
   padding: 50px, 80px ;
   letter-spacing: 5px;
@@ -18,8 +18,14 @@ nav{
   text-decoration: none; 
 }
 
-a{
+a {
   text-decoration: none;
+}
+div > a h1{
+ 
+  color: black;
+  font-size: 18px;
+  
 }
 
 .hero-banner {
@@ -59,7 +65,7 @@ a{
                     "work-4 work-5"; 
 }
 
-div> h1{
+div > h1{
  margin: 5px;
  padding: 5px; 
  font-weight: 100;
@@ -121,7 +127,7 @@ p{
   grid-area: work-5;
 }
 a {
-  margin-left: auto;
+  /* margin-left: auto; */
   padding-left: 20px;
 }
 .container {
@@ -133,7 +139,16 @@ a {
   grid-template-rows: 1fr 3fr 1fr;
   gap: 20px;
 }
+ section img{ 
+  float: left;
+  height: 400px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 15px;
 
+
+
+}
 div >h2 {
   display: inline-block;
 }
@@ -152,13 +167,24 @@ body {
 h1 {
  padding: 5px;
  font-family: Arial, Helvetica, sans-serif; 
- justify-content: flex-end;
+ justify-content: space-evenly;
 }
 
-p {
-  margin: 0;
-}
-footer {
+pre {
   display: flex;
-  justify-content: space-around;
+ justify-content: flex-start;
+ flex-wrap: wrap;
+  
+}
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+h3{
+  color: black;
+}
+
+h4{
+  color: black;
 }
