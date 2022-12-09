@@ -22,7 +22,7 @@ nav{
 a {
   text-decoration: none;
 }
-div > a h1{
+div  a h1{
  
   color: black;
   font-size: 18px;
@@ -66,7 +66,7 @@ div > a h1{
                     "work-4 work-5"; 
 }
 
-div > h1{
+div  h1{
  margin: 5px;
  padding: 5px; 
  font-weight: 100;
@@ -128,7 +128,6 @@ p{
   grid-area: work-5;
 }
 a {
-  /* margin-left: auto; */
   padding-left: 20px;
   color: black
 }
@@ -151,7 +150,7 @@ a {
 
 
 }
-div >h2 {
+div h2 {
   display: inline-block;
 }
 #bannertext{
@@ -173,12 +172,7 @@ h1 {
  color: black;
 }
 
-pre {
-  display: flex;
- justify-content: flex-start;
- flex-wrap: wrap;
-  
-}
+
 .footer {
   display: flex;
   justify-content: space-evenly;
@@ -193,4 +187,39 @@ h4{
 }
 div a{
   background-color: rgba(0, 0, 0, 0.041);
+}
+
+@media all and (min-width: 933px) and (max-width: 1200px) {
+  body {
+    background: rgba(32, 32, 32, 0.041);
+  }
+
+  .hero-banner{
+    display: none;
+  }
+
+.container{
+    margin: 0px 5%;
+    display: grid;
+    min-height: 300px;
+    height: 100vh;
+    grid-template-columns: 20% 80%;
+    gap: 15px;
+  }
+
+p{
+  font-size: 16px;
+}
+
+#work-grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "work-1 work-1"
+    "work-2 work-3"
+    "work-4 work-5";
+    
+  }
+
 }
